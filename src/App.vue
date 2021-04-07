@@ -1,10 +1,18 @@
 <template>
   <div id="app">
     <Header />
+    
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
+    <p>作ったもの</p>
+    <a href="https://berlin-now.net">これ</a><br>
+        <a href="https://rails-blog-garbage-one.herokuapp.com/">これ</a><br>
+        <a href="https://epic-lewin-3f7cfb.netlify.app/">これ</a><br>
+
+
+
     <router-view/>
   </div>
 </template>
