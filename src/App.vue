@@ -12,7 +12,6 @@
         <a href="https://epic-lewin-3f7cfb.netlify.app/">これ</a><br>
 
 
-
     <router-view/>
   </div>
 </template>
