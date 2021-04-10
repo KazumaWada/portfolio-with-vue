@@ -1,10 +1,18 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import 'vue-awesome/icons'
-import Icon from 'vue-awesome/components/Icon'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+/* <i class="fab fa-github"></i> */
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
-Vue.component('v-icon', Icon)
+
+library.add(fab )
+
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+
+Vue.config.productionTip = false
 
 Vue.config.productionTip = false
 
