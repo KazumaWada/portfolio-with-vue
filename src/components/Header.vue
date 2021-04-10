@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <p><v-icon name="cat" scale="2" spin/></p>
-    ここはヘッダーです。
-  </div>
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
 </template>
