@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <h5>こんにちは。これは、vueで自作したポートフォリオです。</h5>
   </div>
 </template>
 
